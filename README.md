@@ -12,6 +12,7 @@
 - `wxauto` 库：用于操作微信
 - `openai` 库：用于访问 DeepSeek API
 - DeepSeek API Key：获取 DeepSeek 提供的 API 密钥
+- wxauto地址：https://github.com/cluic/wxauto
 
 ## 安装依赖
 
