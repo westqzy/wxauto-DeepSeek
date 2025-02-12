@@ -1,5 +1,29 @@
-基于wxauto的deepSeek机器人
+以下是将您的代码整理成 Markdown 格式文档：
 
+---
+
+# 基于 wxauto 的 DeepSeek 机器人实现
+
+该文档展示了如何使用 `wxauto` 库和 DeepSeek 的 OpenAI SDK 实现一个简单的微信机器人，能够监听微信群中的消息并进行自动回复。
+
+## 环境要求
+
+- Python 3.x
+- `wxauto` 库：用于操作微信
+- `openai` 库：用于访问 DeepSeek API
+- DeepSeek API Key：获取 DeepSeek 提供的 API 密钥
+
+## 安装依赖
+
+首先，确保安装所需的库：
+
+```bash
+pip install wxauto openai
+```
+
+## 代码实现
+
+```python
 import time
 import openai
 from wxauto import WeChat
@@ -12,7 +36,7 @@ print("微信登录账号:", wx.nickname)
 GROUP_NAMES = ["group1", "group2", "group3"]
 
 # DeepSeek API 配置 (使用 DeepSeek 的 OpenAI SDK)
-DEEPSEEK_API_KEY = "your - key"  # 替换为你的 DeepSeek API Key
+DEEPSEEK_API_KEY = "your-key"  # 替换为你的 DeepSeek API Key
 openai.api_key = DEEPSEEK_API_KEY  # 设置 API 密钥
 openai.api_base = "https://api.deepseek.com"  # DeepSeek API 的基础 URL
 
@@ -55,8 +79,8 @@ while True:
             print(last_msg.__dict__)
 
             # 如果发送者是 'Self'，跳过该消息
-           # if last_msg.sender == 'Self':
-             #   continue  # 跳过当前循环，处理下一个消息
+            # if last_msg.sender == 'Self':
+            #   continue  # 跳过当前循环，处理下一个消息
 
             # 仅处理以 'bot' 开头的消息
             if last_msg.content.lower().startswith("bot"):
@@ -80,4 +104,71 @@ while True:
                 print(f"已发送 AI 回复到群: {groupName}")
 
     time.sleep(wait)  # 休眠3秒，防止高频请求
+```
 
+## 代码说明
+
+### 1. 初始化微信
+
+```python
+wx = WeChat()
+print("微信登录账号:", wx.nickname)
+```
+
+这段代码初始化了 `wxauto` 并打印出当前登录微信账号的昵称。
+
+### 2. 配置 DeepSeek API
+
+```python
+DEEPSEEK_API_KEY = "your-key"  # 替换为你的 DeepSeek API Key
+openai.api_key = DEEPSEEK_API_KEY  # 设置 API 密钥
+openai.api_base = "https://api.deepseek.com"  # DeepSeek API 的基础 URL
+```
+
+这里需要配置您的 DeepSeek API 密钥。
+
+### 3. 调用 DeepSeek API 获取 AI 回复
+
+```python
+def call_deepseek_api(user_message):
+    """ 调用 DeepSeek API 获取 AI 回复 """
+    try:
+        response = openai.ChatCompletion.create(
+            model="deepseek-chat",  # 使用 DeepSeek 的模型
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant"},
+                {"role": "user", "content": user_message},
+            ],
+            stream=False
+        )
+        ...
+```
+
+该函数接收用户消息并调用 DeepSeek API 生成 AI 回复。
+
+### 4. 监听微信群消息
+
+```python
+for i in GROUP_NAMES:
+    wx.AddListenChat(who=i, savepic=False)
+    print(f"已开始监听微信群: {i}")
+```
+
+使用 `wxauto` 的 `AddListenChat` 函数监听多个微信群，并且打印监听的群聊名称。
+
+### 5. 处理并回复消息
+
+```python
+while True:
+    msgs = wx.GetListenMessage()
+    for chat in msgs:
+        ...
+        if last_msg.content.lower().startswith("bot"):
+            ...
+            ai_response = call_deepseek_api(user_query)
+            ...
+            wx.SendMsg(ai_response, groupName)
+            print(f"已发送 AI 回复到群: {groupName}")
+```
+
+该部分代码在群聊中监听消息，并且当消息内容以 `bot` 开头时，调用 DeepSeek API 获取回复并发送到微信群。
