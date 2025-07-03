@@ -1,0 +1,532 @@
+2025-07-02 15:37:02 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 15:37:03 [wxauto] [DEBUG] [main.py:175]  决胜灌蛋之巅——7家军 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("决胜灌蛋之巅——7家军")>
+2025-07-02 15:37:57 [wxauto] [DEBUG] [msg.py:79]  content: 不是吧, length: 10
+2025-07-02 15:37:57 [wxauto] [DEBUG] [wx.py:205]  [system base]获取到新消息：决胜灌蛋之巅——7家军 - 以下为新消息
+2025-07-02 15:39:42 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "D:\GitHub\wxauto-DeepSeek\deepseek.py", line 60, in on_message
+    for chat in msgs:
+TypeError: 'SystemMessage' object is not iterable
+
+2025-07-02 15:39:42 [wxauto] [DEBUG] [wx.py:205]  [friend text]获取到新消息：决胜灌蛋之巅——7家军 - 不是吧
+2025-07-02 15:40:48 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 15:40:49 [wxauto] [DEBUG] [main.py:175]  决胜灌蛋之巅——7家军 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("决胜灌蛋之巅——7家军")>
+2025-07-02 15:41:03 [wxauto] [DEBUG] [msg.py:79]  content: 直接截图问ai这是什么牌子, length: 10
+2025-07-02 15:41:03 [wxauto] [DEBUG] [wx.py:205]  [system base]获取到新消息：决胜灌蛋之巅——7家军 - 以下为新消息
+2025-07-02 15:42:10 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "D:\GitHub\wxauto-DeepSeek\deepseek.py", line 62, in on_message
+    one_msgs = msgs.get(chat, [])
+AttributeError: 'str' object has no attribute 'get'
+
+2025-07-02 15:42:10 [wxauto] [DEBUG] [wx.py:205]  [friend text]获取到新消息：决胜灌蛋之巅——7家军 - 直接截图问ai这是什么牌子
+2025-07-02 15:42:30 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "D:\GitHub\wxauto-DeepSeek\deepseek.py", line 62, in on_message
+    one_msgs = msgs.get(chat, [])
+AttributeError: 'str' object has no attribute 'get'
+
+2025-07-02 15:42:32 [wxauto] [DEBUG] [msg.py:79]  content: [动画表情], length: 10
+2025-07-02 15:42:32 [wxauto] [DEBUG] [msg.py:79]  content: 对，或者你把这一串输给京东, length: 10
+2025-07-02 15:42:32 [wxauto] [DEBUG] [wx.py:205]  [friend text]获取到新消息：决胜灌蛋之巅——7家军 - [动画表情]
+2025-07-02 15:42:48 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "D:\GitHub\wxauto-DeepSeek\deepseek.py", line 62, in on_message
+    one_msgs = msgs.get(chat, [])
+AttributeError: 'str' object has no attribute 'get'
+
+2025-07-02 15:42:48 [wxauto] [DEBUG] [wx.py:205]  [system base]获取到新消息：决胜灌蛋之巅——7家军 - 以下为新消息
+2025-07-02 15:58:22 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 15:58:22 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 15:58:37 [wxauto] [DEBUG] [msg.py:79]  content: 你好, length: 8
+2025-07-02 15:58:37 [wxauto] [DEBUG] [wx.py:205]  [time base]获取到新消息：文件传输助手 - 15:58
+2025-07-02 16:00:29 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:00:29 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:00:36 [wxauto] [DEBUG] [msg.py:79]  content: 号楼, length: 8
+2025-07-02 16:00:36 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - 号楼
+2025-07-02 16:08:29 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:08:29 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:08:43 [wxauto] [DEBUG] [msg.py:79]  content: 你好啊, length: 8
+2025-07-02 16:08:43 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - 你好啊
+2025-07-02 16:08:51 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "D:\GitHub\wxauto-DeepSeek\deepseek.py", line 60, in on_message
+    for chat1 in msgs:
+TypeError: 'SelfTextMessage' object is not iterable
+
+2025-07-02 16:09:11 [wxauto] [DEBUG] [msg.py:79]  content: hh, length: 8
+2025-07-02 16:09:11 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - hh
+2025-07-02 16:10:03 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "D:\GitHub\wxauto-DeepSeek\deepseek.py", line 60, in on_message
+    for chat1 in msgs:
+TypeError: 'SelfTextMessage' object is not iterable
+
+2025-07-02 16:11:58 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:11:58 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:12:06 [wxauto] [DEBUG] [msg.py:79]  content: 你好, length: 8
+2025-07-02 16:12:06 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - 你好
+2025-07-02 16:12:34 [wxauto] [DEBUG] [msg.py:79]  content: bot你是谁, length: 8
+2025-07-02 16:12:34 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot你是谁
+2025-07-02 16:18:21 [wxauto] [DEBUG] [msg.py:79]  content: DeepSeek API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742, length: 8
+2025-07-02 16:18:21 [wxauto] [DEBUG] [wx.py:205]  [time base]获取到新消息：文件传输助手 - 16:18
+2025-07-02 16:18:33 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - DeepSeek API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+2025-07-02 16:19:23 [wxauto] [DEBUG] [msg.py:79]  content: bot 你是谁, length: 8
+2025-07-02 16:19:23 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot 你是谁
+2025-07-02 16:22:55 [wxauto] [DEBUG] [msg.py:79]  content: DeepSeek API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742, length: 8
+2025-07-02 16:22:55 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - DeepSeek API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+2025-07-02 16:23:08 [wxauto] [DEBUG] [msg.py:79]  content: bot你好啊, length: 8
+2025-07-02 16:23:08 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot你好啊
+2025-07-02 16:23:22 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:23:22 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:23:37 [wxauto] [DEBUG] [msg.py:79]  content: bot你好啊, length: 8
+2025-07-02 16:23:37 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot你好啊
+2025-07-02 16:26:27 [wxauto] [DEBUG] [msg.py:79]  content: DeepSeek API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742, length: 8
+2025-07-02 16:26:27 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - DeepSeek API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+2025-07-02 16:27:08 [wxauto] [DEBUG] [msg.py:79]  content: bot你好, length: 8
+2025-07-02 16:27:08 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot你好
+2025-07-02 16:38:53 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:38:53 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:39:06 [wxauto] [DEBUG] [msg.py:79]  content: bot 你好啊, length: 8
+2025-07-02 16:39:06 [wxauto] [DEBUG] [wx.py:205]  [time base]获取到新消息：文件传输助手 - 16:39
+2025-07-02 16:39:11 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot 你好啊
+2025-07-02 16:42:30 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:42:31 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:42:38 [wxauto] [DEBUG] [msg.py:79]  content: bot 你好啊, length: 8
+2025-07-02 16:42:38 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot 你好啊
+2025-07-02 16:44:35 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:44:36 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:44:53 [wxauto] [DEBUG] [msg.py:79]  content: bot 你好啊, length: 8
+2025-07-02 16:44:53 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot 你好啊
+2025-07-02 16:45:03 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-33978497-7631-43d9-a860-43926ea2c204', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好啊'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:45:03 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-07-02 16:45:03 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='127.0.0.1' port=14226 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:45:03 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000245D3436100>
+2025-07-02 16:45:03 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x00000245D33B7F40> server_hostname='127.0.0.1' timeout=5.0
+2025-07-02 16:45:03 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.failed exception=ConnectError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))
+2025-07-02 16:45:03 [openai._base_client] [DEBUG] [_base_client.py:992]  Encountered Exception
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 288, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_backends\sync.py", line 170, in start_tls
+    raise exc
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\openai\_base_client.py", line 972, in request
+    response = self._client.send(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+2025-07-02 16:45:03 [openai._base_client] [DEBUG] [_base_client.py:1058]  2 retries left
+2025-07-02 16:45:03 [openai._base_client] [INFO] [_base_client.py:1061]  Retrying request to /chat/completions in 0.390350 seconds
+2025-07-02 16:45:04 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-33978497-7631-43d9-a860-43926ea2c204', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好啊'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:45:04 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-07-02 16:45:04 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='127.0.0.1' port=14226 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:45:04 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000245D34185E0>
+2025-07-02 16:45:04 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x00000245D33DBEC0> server_hostname='127.0.0.1' timeout=5.0
+2025-07-02 16:45:04 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.failed exception=ConnectError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))
+2025-07-02 16:45:04 [openai._base_client] [DEBUG] [_base_client.py:992]  Encountered Exception
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 288, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_backends\sync.py", line 170, in start_tls
+    raise exc
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\openai\_base_client.py", line 972, in request
+    response = self._client.send(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+2025-07-02 16:45:04 [openai._base_client] [DEBUG] [_base_client.py:1056]  1 retry left
+2025-07-02 16:45:04 [openai._base_client] [INFO] [_base_client.py:1061]  Retrying request to /chat/completions in 0.811988 seconds
+2025-07-02 16:45:05 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-33978497-7631-43d9-a860-43926ea2c204', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好啊'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:45:05 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-07-02 16:45:05 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='127.0.0.1' port=14226 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:45:05 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000245D3436100>
+2025-07-02 16:45:05 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x00000245D33B7F40> server_hostname='127.0.0.1' timeout=5.0
+2025-07-02 16:45:05 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.failed exception=ConnectError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))
+2025-07-02 16:45:05 [openai._base_client] [DEBUG] [_base_client.py:992]  Encountered Exception
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 288, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_backends\sync.py", line 170, in start_tls
+    raise exc
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\openai\_base_client.py", line 972, in request
+    response = self._client.send(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+2025-07-02 16:45:05 [openai._base_client] [DEBUG] [_base_client.py:1003]  Raising connection error
+2025-07-02 16:45:33 [wxauto] [DEBUG] [msg.py:79]  content: DeepSeek API 调用失败: Connection error., length: 8
+2025-07-02 16:45:33 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - DeepSeek API 调用失败: Connection error.
+2025-07-02 16:45:45 [wxauto] [DEBUG] [msg.py:79]  content: bot你好, length: 8
+2025-07-02 16:45:45 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot你好
+2025-07-02 16:45:50 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e896a051-5e24-44a7-92a3-cf5ef2f97750', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好啊'}, {'role': 'user', 'content': '你好'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:45:50 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-07-02 16:45:50 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='127.0.0.1' port=14226 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:45:50 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000245D3522F40>
+2025-07-02 16:45:50 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x00000245D34E7DC0> server_hostname='127.0.0.1' timeout=5.0
+2025-07-02 16:45:50 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.failed exception=ConnectError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))
+2025-07-02 16:45:50 [openai._base_client] [DEBUG] [_base_client.py:992]  Encountered Exception
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 288, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_backends\sync.py", line 170, in start_tls
+    raise exc
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\openai\_base_client.py", line 972, in request
+    response = self._client.send(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+2025-07-02 16:45:50 [openai._base_client] [DEBUG] [_base_client.py:1058]  2 retries left
+2025-07-02 16:45:50 [openai._base_client] [INFO] [_base_client.py:1061]  Retrying request to /chat/completions in 0.448040 seconds
+2025-07-02 16:45:50 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e896a051-5e24-44a7-92a3-cf5ef2f97750', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好啊'}, {'role': 'user', 'content': '你好'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:45:50 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-07-02 16:45:50 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='127.0.0.1' port=14226 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:45:50 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000245D2C43FA0>
+2025-07-02 16:45:51 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x00000245D33DBEC0> server_hostname='127.0.0.1' timeout=5.0
+2025-07-02 16:45:51 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.failed exception=ConnectError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))
+2025-07-02 16:45:51 [openai._base_client] [DEBUG] [_base_client.py:992]  Encountered Exception
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 288, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_backends\sync.py", line 170, in start_tls
+    raise exc
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\openai\_base_client.py", line 972, in request
+    response = self._client.send(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+2025-07-02 16:45:51 [openai._base_client] [DEBUG] [_base_client.py:1056]  1 retry left
+2025-07-02 16:45:51 [openai._base_client] [INFO] [_base_client.py:1061]  Retrying request to /chat/completions in 0.968041 seconds
+2025-07-02 16:45:52 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e896a051-5e24-44a7-92a3-cf5ef2f97750', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好啊'}, {'role': 'user', 'content': '你好'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:45:52 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-07-02 16:45:52 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='127.0.0.1' port=14226 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:45:52 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000245D34FB0A0>
+2025-07-02 16:45:52 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x00000245D2C42440> server_hostname='127.0.0.1' timeout=5.0
+2025-07-02 16:45:52 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.failed exception=ConnectError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))
+2025-07-02 16:45:52 [openai._base_client] [DEBUG] [_base_client.py:992]  Encountered Exception
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 288, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_backends\sync.py", line 170, in start_tls
+    raise exc
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Programing\Anaconda\lib\site-packages\openai\_base_client.py", line 972, in request
+    response = self._client.send(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\Programing\Anaconda\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "d:\Programing\Anaconda\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: EOF occurred in violation of protocol (_ssl.c:1129)
+2025-07-02 16:45:52 [openai._base_client] [DEBUG] [_base_client.py:1003]  Raising connection error
+2025-07-02 16:45:55 [wxauto] [DEBUG] [msg.py:79]  content: DeepSeek API 调用失败: Connection error., length: 8
+2025-07-02 16:45:55 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - DeepSeek API 调用失败: Connection error.
+2025-07-02 16:56:26 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:56:27 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:56:37 [wxauto] [DEBUG] [msg.py:79]  content: bot你好, length: 8
+2025-07-02 16:56:37 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot你好
+2025-07-02 16:57:03 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-f2502099-7ae7-4464-8cb7-7d4cb7dee595', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:57:03 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.deepseek.com/v1/chat/completions
+2025-07-02 16:57:03 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:57:03 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DB8E00C970>
+2025-07-02 16:57:03 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DB8D9F8C40> server_hostname='api.deepseek.com' timeout=5.0
+2025-07-02 16:57:03 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DB8E00C910>
+2025-07-02 16:57:03 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_headers.started request=<Request [b'POST']>
+2025-07-02 16:57:03 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_headers.complete
+2025-07-02 16:57:03 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_body.started request=<Request [b'POST']>
+2025-07-02 16:57:03 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_body.complete
+2025-07-02 16:57:03 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_headers.started request=<Request [b'POST']>
+2025-07-02 16:57:03 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 02 Jul 2025 08:57:03 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Set-Cookie', b'HWWAFSESID=825527f700b1833da8; path=/'), (b'Set-Cookie', b'HWWAFSESTIME=1751446621610; path=/'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'8bc7132c85e2ab36a6eaaacfafcd29af'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'CW'), (b'Content-Encoding', b'gzip')])
+2025-07-02 16:57:03 [httpx] [INFO] [_client.py:1025]  HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-02 16:57:03 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_body.started request=<Request [b'POST']>
+2025-07-02 16:57:09 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_body.complete
+2025-07-02 16:57:09 [httpcore.http11] [DEBUG] [_trace.py:47]  response_closed.started
+2025-07-02 16:57:09 [httpcore.http11] [DEBUG] [_trace.py:47]  response_closed.complete
+2025-07-02 16:57:09 [openai._base_client] [DEBUG] [_base_client.py:1006]  HTTP Response: POST https://api.deepseek.com/v1/chat/completions "200 OK" Headers([('date', 'Wed, 02 Jul 2025 08:57:03 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('set-cookie', 'HWWAFSESID=825527f700b1833da8; path=/'), ('set-cookie', 'HWWAFSESTIME=1751446621610; path=/'), ('vary', 'origin, access-control-request-method, access-control-request-headers'), ('access-control-allow-credentials', 'true'), ('x-ds-trace-id', '8bc7132c85e2ab36a6eaaacfafcd29af'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-content-type-options', 'nosniff'), ('server', 'CW'), ('content-encoding', 'gzip')])
+2025-07-02 16:57:09 [openai._base_client] [DEBUG] [_base_client.py:1014]  request_id: None
+2025-07-02 16:58:05 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-02 16:58:05 [wxauto] [DEBUG] [main.py:175]  文件传输助手 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("文件传输助手")>
+2025-07-02 16:58:13 [wxauto] [DEBUG] [msg.py:79]  content: bot你好, length: 8
+2025-07-02 16:58:13 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - bot你好
+2025-07-02 16:58:29 [openai._base_client] [DEBUG] [_base_client.py:482]  Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-78e1ad5f-0ac2-40f5-97ca-3515343f30af', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a helpful assistant'}, {'role': 'user', 'content': '你好'}], 'model': 'deepseek-chat', 'stream': False, 'temperature': 1.0}}
+2025-07-02 16:58:29 [openai._base_client] [DEBUG] [_base_client.py:968]  Sending HTTP Request: POST https://api.deepseek.com/v1/chat/completions
+2025-07-02 16:58:29 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-07-02 16:58:29 [httpcore.connection] [DEBUG] [_trace.py:47]  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000194FEFE7A30>
+2025-07-02 16:58:29 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.started ssl_context=<ssl.SSLContext object at 0x00000194FE929C40> server_hostname='api.deepseek.com' timeout=5.0
+2025-07-02 16:58:29 [httpcore.connection] [DEBUG] [_trace.py:47]  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000194FEFE7400>
+2025-07-02 16:58:29 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_headers.started request=<Request [b'POST']>
+2025-07-02 16:58:29 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_headers.complete
+2025-07-02 16:58:29 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_body.started request=<Request [b'POST']>
+2025-07-02 16:58:29 [httpcore.http11] [DEBUG] [_trace.py:47]  send_request_body.complete
+2025-07-02 16:58:29 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_headers.started request=<Request [b'POST']>
+2025-07-02 16:58:29 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 02 Jul 2025 08:58:29 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Set-Cookie', b'HWWAFSESID=522f7828545f79ca21; path=/'), (b'Set-Cookie', b'HWWAFSESTIME=1751446708284; path=/'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'b8646f94519685e5ede1305eaf99e410'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'CW'), (b'Content-Encoding', b'gzip')])
+2025-07-02 16:58:29 [httpx] [INFO] [_client.py:1025]  HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-02 16:58:29 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_body.started request=<Request [b'POST']>
+2025-07-02 16:58:33 [httpcore.http11] [DEBUG] [_trace.py:47]  receive_response_body.complete
+2025-07-02 16:58:33 [httpcore.http11] [DEBUG] [_trace.py:47]  response_closed.started
+2025-07-02 16:58:33 [httpcore.http11] [DEBUG] [_trace.py:47]  response_closed.complete
+2025-07-02 16:58:33 [openai._base_client] [DEBUG] [_base_client.py:1006]  HTTP Response: POST https://api.deepseek.com/v1/chat/completions "200 OK" Headers([('date', 'Wed, 02 Jul 2025 08:58:29 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('set-cookie', 'HWWAFSESID=522f7828545f79ca21; path=/'), ('set-cookie', 'HWWAFSESTIME=1751446708284; path=/'), ('vary', 'origin, access-control-request-method, access-control-request-headers'), ('access-control-allow-credentials', 'true'), ('x-ds-trace-id', 'b8646f94519685e5ede1305eaf99e410'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-content-type-options', 'nosniff'), ('server', 'CW'), ('content-encoding', 'gzip')])
+2025-07-02 16:58:33 [openai._base_client] [DEBUG] [_base_client.py:1014]  request_id: None
+2025-07-02 16:59:16 [wxauto] [DEBUG] [msg.py:79]  content: DeepSeek API 调用失败: 'ChatCompletionMessage' object is not subscriptable, length: 8
+2025-07-02 16:59:16 [wxauto] [DEBUG] [msg.py:79]  content: 你好！😊 很高兴见到你！有什么我可以帮你的吗？, length: 8
+2025-07-02 16:59:16 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - DeepSeek API 调用失败: 'ChatCompletionMessage' object is not subscriptable
+2025-07-02 16:59:16 [wxauto] [DEBUG] [wx.py:205]  [self text]获取到新消息：文件传输助手 - 你好！😊 很高兴见到你！有什么我可以帮你的吗？
